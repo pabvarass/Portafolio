@@ -16,10 +16,10 @@ Soy estudiante del área de desarrollo de software, con interés en aplicaciones
 
 Aplicación web para gestionar cursos de capacitación, empleados e inscripciones.
 
-- 🔗 **Código fuente (GitHub)**:  
+- **Código fuente (GitHub)**:  
   https://github.com/pabvarass/m6_sistema_capacitaciones  ← *(ejemplo, cambia la URL por la tuya real)*
 
-- 🌐 **Demo / Hosting**:  
+- **Demo / Hosting**:  
   https://pabvarass.github.io/m6_sistema_capacitaciones/  ← *(ejemplo de enlace de demo)*
 
 Principales tecnologías: Spring Boot, Spring Data JPA, Thymeleaf, H2/MariaDB.
@@ -30,10 +30,10 @@ Principales tecnologías: Spring Boot, Spring Data JPA, Thymeleaf, H2/MariaDB.
 
 API REST para gestionar un catálogo de productos, permitiendo operaciones CRUD y filtrado básico.
 
-- 🔗 **Código fuente (GitHub)**:  
+- **Código fuente (GitHub)**:  
   https://github.com/pabvarass/catalogo-productos-api  ← *(ejemplo, cambia la URL por la tuya real)*
 
-- 🌐 **Demo / Hosting**:  
+- **Demo / Hosting**:  
   https://pabvarass.github.io/catalogo-productos-api/  ← *(ejemplo de enlace de demo)*
 
 Principales tecnologías: Spring Boot, Spring Web, Spring Data JPA, JSON, Postman.
@@ -42,15 +42,15 @@ Principales tecnologías: Spring Boot, Spring Web, Spring Data JPA, JSON, Postma
 
 ## Portafolios y demos
 
-- 🎨 **Portafolio en Behance**:  
+- **Portafolio en Behance**:  
   https://www.behance.net/tu-usuario  ← *(reemplaza con tu enlace real)*
 
-- 📹 **Video técnico en YouTube**:  
+- **Video técnico en YouTube**:  
   https://www.youtube.com/watch?v=TU_VIDEO  ← *(reemplaza con tu enlace real)*
 
 ---
 
 ## Contacto
 
-- ✉️ Correo: tu_correo@example.com  
-- 🐙 GitHub: https://github.com/pabvarass
+- Correo: tu_correo@example.com  
+- GitHub: https://github.com/pabvarass
