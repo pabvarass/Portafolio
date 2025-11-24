@@ -1,43 +1,50 @@
-# Portafolio
+# Portafolio técnico de Pablo Varas
 
-Bienvenido a mi portafolio técnico. Aquí reúno algunos de mis proyectos desarrollados durante el curso y de forma personal.
-
----
-
-## Sobre mí
-
-Soy estudiante del área de desarrollo de software, con interés en aplicaciones web en **Java / Spring Boot**, bases de datos relacionales y buenas prácticas de desarrollo (testing, documentación y control de versiones con Git).
+Este repositorio reúne proyectos desarrollados durante el módulo, junto con enlaces a mi portafolio visual y a una presentación técnica en video. Su objetivo es servir como carta de presentación técnica y concentrar en un solo lugar el código, la documentación y una demo publicada en la nube.
 
 ---
 
-## Proyectos destacados
+## 1. Sobre mí
 
-### 1. Sistema de Capacitaciones (Spring Boot + Thymeleaf)
+Soy estudiante del área de desarrollo de software, con especial interés en:
 
-Aplicación web para gestionar cursos de capacitación, empleados e inscripciones.
+- Aplicaciones web con **Java y Spring Boot**.
+- Desarrollo de APIs REST y consumo de servicios.
+- Buenas prácticas de desarrollo: control de versiones con Git, documentación y pruebas básicas.
 
-- **Código fuente**:  
-  [`m6_sistema_capacitaciones`](./m6_sistema_capacitaciones/)
-
-- **Demo / Hosting (servicio cloud único)**:  
-  _Pendiente – URL de GitHub Pages u otro servicio cuando se publique la landing._
-
-Principales tecnologías: Spring Boot, Spring Data JPA, Thymeleaf, H2/MariaDB.
+Este portafolio se irá ampliando a medida que incorpore nuevos proyectos y evidencia de aprendizaje.
 
 ---
 
-## Portafolios y demos
+## 2. Estructura del repositorio
 
-- **Portafolio en Behance**:  
-  _Pendiente – reemplazar con el enlace real cuando se publique el proyecto._
+La estructura principal de este repositorio es:
 
-- **Video técnico en YouTube**:  
-  _Pendiente – reemplazar con el enlace real del video._
+- `m6_sistema_capacitaciones/`  
+  Proyecto completo del **Sistema de Capacitaciones** (Spring Boot + Thymeleaf).
+
+- `README.md`  
+  Este documento de presentación general del portafolio.
+
+En el futuro se podrán agregar nuevas carpetas con más proyectos o ejercicios relevantes.
 
 ---
 
-## Contacto
+## 3. Proyecto destacado: Sistema de Capacitaciones
 
-- Correo: tu_correo@example.com  
-- GitHub: https://github.com/pabvarass
+Proyecto desarrollado con **Spring Boot 3**, **Spring Data JPA**, **Thymeleaf** y base de datos H2/MariaDB para gestionar cursos de capacitación, empleados, instructores e inscripciones.
 
+### 3.1 Funcionalidades principales
+
+- Gestión de cursos (crear, editar, listar, eliminar).
+- Gestión de empleados e instructores.
+- Inscripción de empleados en cursos disponibles.
+- Módulo web con vistas Thymeleaf.
+- Control de acceso por roles (ADMIN y EMPLEADO).
+
+### 3.2 Ubicación dentro del portafolio
+
+El proyecto se encuentra en la carpeta:
+
+```text
+m6_sistema_capacitaciones/
