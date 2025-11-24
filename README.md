@@ -1,5 +1,4 @@
-# Portafolio de Pablo Varas
-
+# Portafolio 
 Bienvenido a mi portafolio técnico. Aquí reúno algunos de mis proyectos desarrollados durante el curso y de forma personal.
 
 ---
