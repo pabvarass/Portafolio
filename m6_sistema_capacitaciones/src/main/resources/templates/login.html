@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar sesión - Sistema de Capacitaciones</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f5f5f5;
+        }
+        .login-container {
+            width: 350px;
+            margin: 80px auto;
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 4px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 18px;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #007bff;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .mensaje {
+            margin-bottom: 10px;
+            padding: 8px;
+            border-radius: 3px;
+            font-size: 0.9rem;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .logout {
+            background: #d4edda;
+            color: #155724;
+        }
+    </style>
+</head>
+<body>
+<div class="login-container">
+    <h1>Iniciar sesión</h1>
+
+    <!-- Mensaje de error -->
+    <div th:if="${param.error}" class="mensaje error">
+        Usuario o contraseña incorrectos.
+    </div>
+
+    <!-- Mensaje al cerrar sesión -->
+    <div th:if="${param.logout}" class="mensaje logout">
+        Has cerrado sesión correctamente.
+    </div>
+
+    <form th:action="@{/login}" method="post">
+        <label for="username">Usuario</label>
+        <input type="text" id="username" name="username" autofocus/>
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password"/>
+
+        <button type="submit">Ingresar</button>
+    </form>
+</div>
+</body>
+</html>
