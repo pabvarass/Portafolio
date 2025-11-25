@@ -164,7 +164,7 @@ En el video se cubrirán los siguientes puntos (según lo solicitado en la activ
 
 ## 7. Retroalimentación recibida y mejoras realizadas
 
-Como parte de la evaluación del módulo, el portafolio y el Sistema de Capacitaciones fueron revisados por compañeros/as y docentes, quienes entregaron comentarios sobre:
+Como parte de la evaluación del módulo, el portafolio y el Sistema de Capacitaciones fueron revisados por compañeross, quienes entregaron comentarios sobre:
 
 - Claridad de la navegación y organización de las pantallas.
 - Presentación visual del portafolio (GitHub y Behance).
