@@ -1,4 +1,4 @@
-# Portafolio técnico de Pablo Varas
+**# Portafolio técnico de Pablo Varas
 
 Este repositorio reúne proyectos desarrollados durante el módulo, junto con enlaces a mi portafolio visual y a una presentación técnica en video. Su objetivo es servir como carta de presentación técnica y concentrar en un solo lugar el código, la documentación y las demos públicas.
 
@@ -70,7 +70,7 @@ Aquí se publicará un proyecto de portafolio con enfoque en la parte visual (UX
 - Reflexión sobre aprendizajes y mejoras.
 
 **Enlace (por completar):**  
-`[Pendiente]`
+`portafolio.railway.internal`
 
 Cuando el proyecto esté publicado, se actualizará este apartado con el enlace directo.
 
@@ -135,3 +135,4 @@ y seguir las instrucciones del `README.md` específico de ese proyecto para ejec
 ---
 
 > Este portafolio está en construcción constante. A medida que avance el curso y los proyectos, se irán agregando nuevas secciones, enlaces de despliegue y evidencia de habilidades técnicas y de diseño.
+**cd m6_sistema_capacitaciones
