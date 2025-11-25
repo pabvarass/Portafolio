@@ -96,7 +96,8 @@ Captura del formulario de inicio de sesión del Sistema de Capacitaciones en el 
 
 Presentación del proyecto UX/UI basado en el Sistema de Capacitaciones:
 
-- **Enlace al proyecto:** [(https://www.behance.net/gallery/239250149/Sistema-de-Capacitaciones-Plataforma-Web))](https://www.behance.net/gallery/239250149/Sistema-de-Capacitaciones-Plataforma-Web)
+- Enlace al proyecto: [Sistema de Capacitaciones - Plataforma Web](https://www.behance.net/gallery/239250149/Sistema-de-Capacitaciones-Plataforma-Web)
+
 - Contiene descripción del problema, wireframes, diseño de interfaz y reflexión sobre los aprendizajes del módulo.
 
 
