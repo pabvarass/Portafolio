@@ -294,7 +294,30 @@ Dentro del ZIP del proyecto se incluyen los siguientes elementos relevantes para
 
 ---
 
-## 8. Autoría
+## 8. Relación con la rúbrica de M7 – AE2 ABP
+
+Este proyecto busca evidenciar los siguientes aspectos evaluados en la rúbrica técnica:
+
+- **Calidad del diseño**  
+  - Arquitectura en capas, desacoplamiento mediante interfaces y patrón Strategy para notificaciones.
+
+- **Correcta implementación de la lógica de negocio**  
+  - Servicios con validaciones y manejo centralizado de reglas de negocio.
+
+- **Uso de pruebas unitarias**  
+  - `EstadisticasCapacitacionesServiceTest` cubre casos relevantes del cálculo de métricas.
+
+- **Manejo de errores y respuestas HTTP**  
+  - `ResponseStatusException` y códigos 400/404 en la API REST.
+
+- **Documentación y evidencias**  
+  - `README.md` estructurado.  
+  - Carpeta `capturas/` con tablero, diagramas, vistas y pruebas.  
+  - Informe `M7_AE2_ABP-Ejercicio_individual.pdf` con reflexión personal sobre el proceso ABP.
+
+---
+
+## 9. Autoría
 
 - **Autor:** Pablo Varas Salamanca
 - **Curso / Módulo:** M7 – AE2 ABP (Ejercicio individual)  
