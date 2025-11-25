@@ -92,6 +92,15 @@ Captura del formulario de inicio de sesión del Sistema de Capacitaciones en el 
 
 ---
 
+## 5.3 Portafolio en Behance
+
+Presentación del proyecto UX/UI basado en el Sistema de Capacitaciones:
+
+- **Enlace al proyecto:** [https://www.behance.net/gallery/XXXXXXXXX/Sistema-de-Capacitaciones](https://www.behance.net/gallery/239250149/Sistema-de-Capacitaciones-Plataforma-Web)
+- Contiene descripción del problema, wireframes, diseño de interfaz y reflexión sobre los aprendizajes del módulo.
+
+
+
 ## 6. Video de presentación técnica
 
 Como parte del portafolio se incorporará un video técnico (3–5 minutos) donde se explica el Sistema de Capacitaciones, su arquitectura y las tecnologías utilizadas.
