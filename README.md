@@ -1,7 +1,7 @@
 # Portafolio técnico de Pablo Varas
 
 Este repositorio reúne proyectos desarrollados durante el módulo, junto con enlaces a una demo publicada en la nube, al código fuente y al portafolio visual en Behance.  
-Su objetivo es servir como carta de presentación técnica y concentrar en un solo lugar el sistema desarrollado, el proceso de creación, los retos encontrados y las mejoras realizadas a partir de la retroalimentación.
+Su objetivo es servir como carta de presentación técnica y concentrar en un solo lugar los sistemas desarrollados, el proceso de creación, los retos encontrados y las mejoras realizadas a partir de la retroalimentación.
 
 ---
 
@@ -39,9 +39,24 @@ En el futuro se podrán agregar nuevas carpetas con más proyectos o ejercicios 
 
 ---
 
-## 3. Proyecto destacado: Sistema de Capacitaciones
+## 3. Proyecto destacado 1: Sistema de Capacitaciones
 
 Proyecto desarrollado con **Spring Boot 3**, **Spring Data JPA**, **Thymeleaf** y base de datos H2/MariaDB para gestionar cursos de capacitación, empleados, instructores e inscripciones.
+
+### 3.0 Problemática que resuelve
+
+En muchas instituciones la gestión de las capacitaciones de los empleados se realiza de forma manual (planillas, correos aislados, registros dispersos).  
+Esto genera dificultades para:
+
+- Mantener actualizada la información de los cursos y sus cupos.
+- Registrar qué empleados se han inscrito y en qué fechas.
+- Visualizar de forma rápida el historial de capacitaciones.
+
+El **Sistema de Capacitaciones** busca resolver esta problemática centralizando en una sola aplicación web:
+
+- La administración de cursos, instructores y empleados.
+- El registro de inscripciones.
+- El control de acceso según rol (ADMIN / EMPLEADO).
 
 ### 3.1 Funcionalidades principales
 
@@ -164,7 +179,7 @@ En el video se cubrirán los siguientes puntos (según lo solicitado en la activ
 
 ## 7. Retroalimentación recibida y mejoras realizadas
 
-Como parte de la evaluación del módulo, el portafolio y el Sistema de Capacitaciones fueron revisados por compañeross, quienes entregaron comentarios sobre:
+Como parte de la evaluación del módulo, el portafolio y el Sistema de Capacitaciones fueron revisados por compañeros/as y docentes, quienes entregaron comentarios sobre:
 
 - Claridad de la navegación y organización de las pantallas.
 - Presentación visual del portafolio (GitHub y Behance).
@@ -200,6 +215,67 @@ Para ejecutar el proyecto principal (`m6_sistema_capacitaciones`) en local:
    ```
 
 4. Abrir el navegador en: `http://localhost:8080/`.
+
+---
+
+## 9. Proyecto destacado 2: Sistema básico de autenticación y autorización (Spring Security)
+
+Además del Sistema de Capacitaciones, se incluye en el portafolio un segundo proyecto desarrollado en equipo:
+
+- **Repositorio:**  
+  https://github.com/pabvarass/M6_AE4_ABPRO_Grupo3_Spring_Security
+
+### 9.1 Problemática que resuelve
+
+Muchas organizaciones necesitan controlar el acceso a zonas privadas de sus aplicaciones web, diferenciando entre usuarios regulares y administradores.  
+Cuando no existen mecanismos de autenticación y autorización adecuados, se producen riesgos como:
+
+- Acceso no autorizado a información sensible.
+- Falta de control sobre quién puede administrar contenidos.
+- Dificultades para auditar qué usuario realizó cada acción.
+
+El proyecto **M6_AE4_ABPRO - Grupo 3 - Seguridad** aborda esta problemática implementando un **sistema básico de autenticación y autorización** con Spring Security y roles (`USER`, `ADMIN`), que puede servir como base para aplicaciones más complejas.
+
+### 9.2 Funcionalidades principales
+
+- Autenticación con formulario de login personalizado.
+- Usuarios almacenados en base de datos MySQL.
+- Contraseñas cifradas con **BCrypt**.
+- Autorización basada en roles (`USER`, `ADMIN`).
+- Rutas protegidas según el rol del usuario.
+- Interfaz web con **Thymeleaf + Bootstrap 5**.
+
+### 9.3 Tecnologías utilizadas
+
+- **Java 17+**
+- **Spring Boot 3.3.4**
+- **Spring Security 6**
+- **Spring Data JPA / Hibernate**
+- **MySQL 8**
+- **Thymeleaf + Bootstrap 5**
+- **Tomcat 10 (embebido)**
+- **Maven**
+- **IntelliJ IDEA / STS** como IDE
+
+### 9.4 Proceso y evidencias
+
+El proyecto fue desarrollado de forma colaborativa y se documenta en el propio repositorio:
+
+- Scripts SQL en la carpeta `db/` para crear la base de datos y la tabla de usuarios.
+- Clase `SecurityConfig` para configurar Spring Security.
+- Servicio `JpaUserDetailsService` que carga los usuarios desde la base de datos.
+- Vistas `index.html`, `login.html`, `panel.html`, `perfil.html`, `admin.html`.
+
+En la carpeta `docs/` se incluyen capturas de pantalla que evidencian el funcionamiento:
+
+- Inicio público (`01_inicio.png`).
+- Login correcto e incorrecto.
+- Panel de usuario y vista de perfil.
+- Panel de administración accesible solo para `ADMIN`.
+- Intento de acceso bloqueado a `/admin` por parte de un usuario `USER`.
+- Proceso de cierre de sesión.
+
+Este segundo proyecto complementa el portafolio mostrando competencias en **seguridad de aplicaciones web**, manejo de **roles y permisos**, y conexión con una base de datos relacional externa.
 
 ---
 
