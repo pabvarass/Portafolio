@@ -25,6 +25,8 @@ public class SecurityConfig {
                 // Recursos estáticos y H2 sin login
                 .requestMatchers("/css/**", "/js/**", "/images/**", "/webjars/**", "/h2-console/**")
                     .permitAll()
+                // Página de inicio de sesión accesible sin autenticación
+                .requestMatchers("/login").permitAll()
                 // Rutas de administrador
                 .requestMatchers("/admin/**").hasRole("ADMIN")
                 // Rutas de empleado
@@ -34,10 +36,18 @@ public class SecurityConfig {
                 // Cualquier otra ruta requiere estar autenticado
                 .anyRequest().authenticated()
             )
-            // Login por defecto de Spring Security en /login (SIN login.html propio)
-            .formLogin(Customizer.withDefaults())
-            // Logout por defecto
-            .logout(Customizer.withDefaults())
+            // Login personalizado en /login usando la vista login.html (en español)
+            .formLogin(form -> form
+                .loginPage("/login")
+                .defaultSuccessUrl("/", true)  // después de iniciar sesión va al home
+                .permitAll()
+            )
+            // Logout en español: redirige a /login?logout
+            .logout(logout -> logout
+                .logoutUrl("/logout")
+                .logoutSuccessUrl("/login?logout")
+                .permitAll()
+            )
             // Soporte para Basic Auth (API / Postman)
             .httpBasic(Customizer.withDefaults());
 
