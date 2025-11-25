@@ -203,4 +203,3 @@ Para ejecutar el proyecto principal (`m6_sistema_capacitaciones`) en local:
 
 ---
 
-Este README cumple con los requisitos de la actividad: presenta un **portafolio atractivo** en GitHub, incluye un proyecto **alojado en la nube**, referencia el **video tutorial técnico**, documenta la **retroalimentación aplicada** y deja la **documentación completa** del proyecto y de su proceso de creación.
